@@ -8,22 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		DFDF484E25A254AF006CB987 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDF484D25A254AF006CB987 /* AppDelegate.swift */; };
-		DFDF485025A254AF006CB987 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDF484F25A254AF006CB987 /* SceneDelegate.swift */; };
 		DFDF485225A254AF006CB987 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDF485125A254AF006CB987 /* ViewController.swift */; };
-		DFDF485525A254AF006CB987 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFDF485325A254AF006CB987 /* Main.storyboard */; };
 		DFDF485725A254B0006CB987 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFDF485625A254B0006CB987 /* Assets.xcassets */; };
-		DFDF485A25A254B0006CB987 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFDF485825A254B0006CB987 /* LaunchScreen.storyboard */; };
+		DFDF486325A254F8006CB987 /* GSBCompassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDF486225A254F8006CB987 /* GSBCompassView.swift */; };
+		DFDF487A25A25F86006CB987 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFDF487925A25F86006CB987 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DFDF484A25A254AF006CB987 /* GSBCompassViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSBCompassViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFDF484D25A254AF006CB987 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DFDF484F25A254AF006CB987 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DFDF485125A254AF006CB987 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DFDF485425A254AF006CB987 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DFDF485625A254B0006CB987 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DFDF485925A254B0006CB987 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFDF485B25A254B0006CB987 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFDF486225A254F8006CB987 /* GSBCompassView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSBCompassView.swift; sourceTree = "<group>"; };
+		DFDF487925A25F86006CB987 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +55,10 @@
 			isa = PBXGroup;
 			children = (
 				DFDF484D25A254AF006CB987 /* AppDelegate.swift */,
-				DFDF484F25A254AF006CB987 /* SceneDelegate.swift */,
 				DFDF485125A254AF006CB987 /* ViewController.swift */,
-				DFDF485325A254AF006CB987 /* Main.storyboard */,
+				DFDF486225A254F8006CB987 /* GSBCompassView.swift */,
 				DFDF485625A254B0006CB987 /* Assets.xcassets */,
-				DFDF485825A254B0006CB987 /* LaunchScreen.storyboard */,
+				DFDF487925A25F86006CB987 /* LaunchScreen.storyboard */,
 				DFDF485B25A254B0006CB987 /* Info.plist */,
 			);
 			path = GSBCompassViewApp;
@@ -124,9 +121,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFDF485A25A254B0006CB987 /* LaunchScreen.storyboard in Resources */,
 				DFDF485725A254B0006CB987 /* Assets.xcassets in Resources */,
-				DFDF485525A254AF006CB987 /* Main.storyboard in Resources */,
+				DFDF487A25A25F86006CB987 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,31 +134,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFDF485225A254AF006CB987 /* ViewController.swift in Sources */,
+				DFDF486325A254F8006CB987 /* GSBCompassView.swift in Sources */,
 				DFDF484E25A254AF006CB987 /* AppDelegate.swift in Sources */,
-				DFDF485025A254AF006CB987 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		DFDF485325A254AF006CB987 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DFDF485425A254AF006CB987 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DFDF485825A254B0006CB987 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DFDF485925A254B0006CB987 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DFDF485C25A254B0006CB987 /* Debug */ = {
@@ -289,11 +266,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SHZUTRJ67Y;
 				INFOPLIST_FILE = GSBCompassViewApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xiphware.GSBCompassViewApp;
+				PRODUCT_BUNDLE_IDENTIFIER = xiphware.GSBCompassViewApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -308,11 +286,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SHZUTRJ67Y;
 				INFOPLIST_FILE = GSBCompassViewApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xiphware.GSBCompassViewApp;
+				PRODUCT_BUNDLE_IDENTIFIER = xiphware.GSBCompassViewApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
